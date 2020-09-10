@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:contentDescription="@string/gamelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/racket" />
+
+    <Button
+        android:id="@+id/rule_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rule_style"
+        android:drawableStart="@drawable/rule"
+        android:drawablePadding="16dp"
+        android:elevation="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scaleType="fitXY"
+        android:text="@string/rules_text"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/choose_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rule_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/select_style"
+        android:drawableStart="@drawable/select"
+        android:drawablePadding="16dp"
+        android:elevation="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scaleType="fitXY"
+        android:text="@string/select_team_text"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

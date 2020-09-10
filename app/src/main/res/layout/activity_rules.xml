@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity"
+    android:background="@drawable/splash_bg">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:cardMaxElevation="@dimen/cardview_default_elevation">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:scrollbarSize="16dp"
+            android:scrollbarStyle="outsideInset"
+            android:fadeScrollbars="true"
+            android:scrollbarFadeDuration="1000">
+
+            <TextView
+                android:id="@+id/rules_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"
+                android:paddingVertical="20dp"
+                android:text=""
+                android:textSize="24sp"
+                android:fontFamily="@font/slackey" />
+
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

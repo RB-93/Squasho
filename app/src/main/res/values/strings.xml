@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Squasho</string>
+    <string name="squasho_text">SQUASHO</string>
+    <string name="gamelogo">gamelogo</string>
+    <string name="rules">
+    √ Squash is a ball sport played by two (singles) or four players (doubles squash) in a four–walled court with a small, hollow rubber ball.\n\n√ Squash is played up to best of 5 games where scoring system consists of set of 11 points in each.\n\n√ Whoever scores 11 points first and is 2 points clear of opponent wins the game and whoever, wins 3 games first, WINS the match.\ne.g., If the scores are 10–10, the play is continued until one is two points clear of the opponent.\n\n√ Winning a point gets the next serve, known as RALLY.\n\n√ If the ball hits the floor more than once, then the player lose 1 point.\n\n√ If the player doesn\'t gets out of the way of ball,the opponent gains 1 point.
+    </string>
+    <string name="rules_text">Rules</string>
+    <string name="select_team_text">Select team</string>
+    <string name="team_a_text">TEAM A</string>
+    <string name="team_b_text">TEAM B</string>
+    <string name="tap_to_play">tap to play</string>
+    <string name="team_a_score">0</string>
+    <string name="serve">serve</string>
+    <string name="hit">hit</string>
+    <string name="floor">Floor</string>
+    <string name="stroke">stroke</string>
+    <string name="ball_out">ball out</string>
+    <string name="team_b_score">0</string>
+    <string name="reset_scores">Reset scores</string>
+    <string name="go_to_home">Go to home</string>
+    <string name="winner_text">%1$s %2$s</string>
+    <string name="match_tied">MATCH TIED</string>
+</resources>
