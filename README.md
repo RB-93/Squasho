@@ -4,6 +4,7 @@
 
 ## Description:
 This project was created as a part of the Android Basics Nanodegree and for Google India Scholarship Challenge 2k18. The goal of this project is to create an Score Keeper app which gives a user the ability to keep track of the score of two different teams playing a game.
+* In this project, I have accompanied Squash Game - first originated in UK's London.
 
 ## Usage:
 
@@ -12,3 +13,4 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 ## Credits:
 
 * Images sourced from Google
+* Game rules and data from different sources e.g., Wikipedia, etc.
